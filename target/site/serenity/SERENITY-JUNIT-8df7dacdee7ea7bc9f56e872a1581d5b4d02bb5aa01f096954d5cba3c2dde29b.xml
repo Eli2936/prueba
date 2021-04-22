@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Register at buy page a lot of products," skipped="0" tests="1" time="21.94" timestamp="2021-04-21 07:26:30"><testcase name="Register at the page with right data"><failure message="&#10;Expected: an element that is currently visible&#10;     but: no matching element found by xpath: //a[@id='menuUserLink'] was not visible" type="java.lang.AssertionError">
+Expected: an element that is currently visible
+     but: no matching element found by xpath: //a[@id='menuUserLink'] was not visible</failure><system-err>
+Expected: an element that is currently visible
+     but: no matching element found by xpath: //a[@id='menuUserLink'] was not visible&#13;
+com.automationpractice.tasks.registrodeusuarios.EnterValuesRegister.performAs(EnterValuesRegister.java:30)&#13;
+com.automationpractice.stepdefinitions.registrodeusuarios.RegistroUsuariosStepDefinitions.theUserEnterTheDataToStartTheRegister(RegistroUsuariosStepDefinitions.java:41)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

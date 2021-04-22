@@ -1,0 +1,102 @@
+
+‚
+java:S1104"`Make BOTON_INICIAR_SESION a static final constant or non-public and provide accessors if needed.(¬ÀŞôşÿÿÿÿ8Š‚Íñ/
+x
+java:S1104"[Make TEXTO_PASSWORDS a static final constant or non-public and provide accessors if needed.(ßÎñØ8±Ğãñ/
+
+java:S1104"fMake TEXTO_ORDENADOR_RESULTADOS a static final constant or non-public and provide accessors if needed.(Âã–éÿÿÿÿÿ
+t
+java:S3008"YRename this field "TEXTO_PASSWORD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯›áÌûÿÿÿÿ
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ç­€¢úÿÿÿÿ
+s
+java:S1104"XMake BOTON_BUSCAR a static final constant or non-public and provide accessors if needed.(ÊÂîÅüÿÿÿÿ
+v
+java:S1104"`Make TEXTO_VACIO_BUSQUEDA a static final constant or non-public and provide accessors if needed.(¥–ÿ­
+u
+java:S3008"_Rename this field "TEXTO_FALLA_BUSQUEDA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å ÉÉ
+|
+java:S3008"fRename this field "TEXTO_AUTENTICACION_FALLIDA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¨Æš
+H
+java:S1444"2Make this "public static CAMPO_BUSCAR" field final(³ãÂÚ
+u
+java:S3008"_Rename this field "TEXTO_VACIO_BUSQUEDA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥–ÿ­
+
+java:S3008"fRename this field "TEXTO_AUTENTICACION_EXITOSA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—úÓùÿÿÿÿ
+‚
+java:S1104"gMake TEXTO_AUTENTICACION_EXITOSA a static final constant or non-public and provide accessors if needed.(—úÓùÿÿÿÿ
+u
+java:S3008"XRename this field "BOTON_SING_IN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£™ş8…öñ/
+W
+java:S1444"AMake this "public static TEXTO_AUTENTICACION_FALLIDA" field final(’¨Æš
+v
+java:S1104"ZMake TEXTO_USERNAME a static final constant or non-public and provide accessors if needed.(¥œØe8±Ğãñ/
+P
+java:S1444"5Make this "public static BOTON_SING_IN_1" field final(“È©£ùÿÿÿÿ
+k
+java:S3008"PRename this field "BUYER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üÏÑ¿şÿÿÿÿ
+w
+java:S3008"ZRename this field "TEXTO_PASSWORDS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÎñØ8±Ğãñ/
+v
+java:S1104"`Make TEXTO_FALLA_BUSQUEDA a static final constant or non-public and provide accessors if needed.(å ÉÉ
+€
+java:S3008"eRename this field "TEXTO_ORDENADOR_RESULTADOS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âã–éÿÿÿÿÿ
+[
+java:S1444"@Make this "public static TEXTO_ORDENADOR_RESULTADOS" field final(Âã–éÿÿÿÿÿ
+F
+java:S1444"+Make this "public static BUYER" field final(üÏÑ¿şÿÿÿÿ
+l
+java:S3008"VRename this field "TEXTO_EMAIL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ß®´
+u
+java:S3008"ZRename this field "BOTON_SING_IN_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“È©£ùÿÿÿÿ
+}
+java:S1104"gMake TEXTO_AUTENTICACION_FALLIDA a static final constant or non-public and provide accessors if needed.(’¨Æš
+
+java:S3008"_Rename this field "BOTON_INICIAR_SESION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ÀŞôşÿÿÿÿ8Š‚Íñ/
+v
+java:S1104"YMake BOTON_SING_IN a static final constant or non-public and provide accessors if needed.(£™ş8…öñ/
+G
+java:S1444"1Make this "public static TEXTO_EMAIL" field final(×ß®´
+g
+java:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(ç­€¢úÿÿÿÿ
+P
+java:S1444"4Make this "public static TEXTO_USERNAME" field final(¥œØe8±Ğãñ/
+\
+java:S1444":Make this "public static BOTON_INICIAR_SESION" field final(¬ÀŞôşÿÿÿÿ8Š‚Íñ/
+r
+java:S3008"WRename this field "BOTON_BUSCAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÊÂîÅüÿÿÿÿ
+n
+java:S1104"XMake CAMPO_BUSCAR a static final constant or non-public and provide accessors if needed.(³ãÂÚ
+u
+java:S1104"ZMake TEXTO_PASSWORD a static final constant or non-public and provide accessors if needed.(¯›áÌûÿÿÿÿ
+M
+java:S1444"2Make this "public static BOTON_BUSCAR" field final(ÊÂîÅüÿÿÿÿ
+u
+java:S3008"YRename this field "TEXTO_USERNAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥œØe8±Ğãñ/
+O
+java:S1444"4Make this "public static TEXTO_PASSWORD" field final(¯›áÌûÿÿÿÿ
+m
+java:S1104"WMake TEXTO_EMAIL a static final constant or non-public and provide accessors if needed.(×ß®´
+R
+java:S1444"5Make this "public static TEXTO_PASSWORDS" field final(ßÎñØ8±Ğãñ/
+P
+java:S1444":Make this "public static TEXTO_VACIO_BUSQUEDA" field final(¥–ÿ­
+\
+java:S1444"AMake this "public static TEXTO_AUTENTICACION_EXITOSA" field final(—úÓùÿÿÿÿ
+l
+java:S1104"QMake BUYER a static final constant or non-public and provide accessors if needed.(üÏÑ¿şÿÿÿÿ
+P
+java:S1444":Make this "public static TEXTO_FALLA_BUSQUEDA" field final(å ÉÉ
+m
+java:S3008"WRename this field "CAMPO_BUSCAR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ãÂÚ
+P
+java:S1444"3Make this "public static BOTON_SING_IN" field final(£™ş8…öñ/
+v
+java:S1104"[Make BOTON_SING_IN_1 a static final constant or non-public and provide accessors if needed.(“È©£ùÿÿÿÿ
+V
+java:S1444	"4Make this "public static BOTON_SING_OUT" field final(üùÛÍúÿÿÿÿ8È¬ğò/
+|
+java:S1104	"ZMake BOTON_SING_OUT a static final constant or non-public and provide accessors if needed.(üùÛÍúÿÿÿÿ8È¬ğò/
+{
+java:S3008	"YRename this field "BOTON_SING_OUT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üùÛÍúÿÿÿÿ8È¬ğò/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç­€¢úÿÿÿÿ8È¬ğò/

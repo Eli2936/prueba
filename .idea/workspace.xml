@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dc957307-5a1e-48c1-a471-1d04900fbe98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/main/java/com/automationpractice/tasks/page/EnterValueCreateNewPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/main/java/com/automationpractice/tasks/post/EnterValueCreateNewPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/main/java/com/automationpractice/tasks/post/EnterValuesLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/main/java/com/automationpractice/utils/constants/IntegerConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/java/com/automationpractice/runners/page/AddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/java/com/automationpractice/runners/post/AddPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/java/com/automationpractice/stepdefinitions/page/AddPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/java/com/automationpractice/stepdefinitions/post/AddPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/resources/features/page/add_page.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reto_TATA/src/test/resources/features/post/add_post.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/0/4/04e5bcf8fc7036fcbb437073cc91483fab8377de" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/1/9/198a488f4598063b8463f395d31e76b47ec6741d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/1/41427acaea9b09cad62e5f81b93fef58b572c462" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/4/440419afd5d7cb941c0bdea1b292c1efe23e4422" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/4/440419afd5d7cb941c0bdea1b292c1efe23e4422" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/4/4425b90ac67ffda07df7acaeab767c8d91f7253a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/7/47fd86e0039793ccc1d5e9076c871c83f541cf04" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/7/47fd86e0039793ccc1d5e9076c871c83f541cf04" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/d/4d0cd0dc237ede1123f2aa4f6aa62494e2c40e3c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/4/f/4ff092c0429077e93f0c4ee26be6ba09773c79d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/6/f/6fe02d2ec0e311a3bf8e61d68f1100c69448e34e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/7/1/717b7c11aedcd9326d66dd3fcc7af3cff68e9821" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/7/4/74dba456e999a94e35def968bd89eb577a279d33" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/8/1/81b51904eeb617e8abd127320f16b799be5a131f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/8/b/8b5a29c079fa5b05c32afeb5aa328b347d0c2b16" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/8/b/8b5a29c079fa5b05c32afeb5aa328b347d0c2b16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/1/a1eaa207f6556a4203210f13c3a7fa44f8a601d7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/4/a411751dfa10a764c7c747c7ce7b2ebbdacc52eb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/7/a7a2e2931f04bd7db0335f88dfcaf8032a87d485" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/7/a7c13bad42753e0f27c25001c06835ff93331434" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/7/a7c13bad42753e0f27c25001c06835ff93331434" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/7/a7ec3d3fb36195a1c477456b8af54f6c40a7d673" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/a/b/abdb1b811a174846ee920f455c349c794eba9808" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/b/1/b194b6f5f09b8482578ccc870be55cb7abca34be" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/e/4/e4b1e4cfa0cfa08e95d276cc06c861b13979a0c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/e/5/e5c846eb32ffd3bb4a4302ba5a71341992ce7cb2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/e/8/e8f99ffe666cd3a98b8813a88c0137277b12dd4b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/questions/Autenticacion/Autenticacion_Exitosa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/questions/Autenticacion/Autenticacion_Exitosa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/tasks/Autenticacion/EnterValuesLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/tasks/Autenticacion/EnterValuesLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/userinterfaces/OpenYourLogoANewExperiencePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/userinterfaces/OpenYourLogoANewExperiencePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/userinterfaces/YourLogoANewExperiencePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/userinterfaces/YourLogoANewExperiencePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/utils/constants/StringConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/automationpractice/utils/constants/StringConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/exceptions/Busqueda/notFoundAnswer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/models/Builders/DataUserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/models/DataUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion_Exitosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion_Fallida_Valores_Erroneos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Exitosa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Fallida_Valores_Erroneos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Fallida_Valores_Vacios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/tasks/Autenticacion/EnterValuesLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/tasks/Busqueda/EnterValuesFromUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/tasks/OpenYourLogoANewExperiencePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/userinterfaces/OpenYourLogoANewExperiencePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/userinterfaces/YourLogoANewExperiencePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/utils/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/utils/constants/IntegerConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/main/com/grupobancolombia/sufi/utils/constants/StringConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/automationpractice/runners/Autenticacion/Autenticacion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/automationpractice/runners/Autenticacion/Autenticacion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/grupobancolombia/sufi/runners/Autenticacion/Autenticacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/grupobancolombia/sufi/runners/Busqueda/Busqueda.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/grupobancolombia/sufi/stepdefinitions/Autenticacion/Autenticacion_StepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/classes/java/test/com/grupobancolombia/sufi/stepdefinitions/Busqueda/Busqueda_StepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/classes/Login#20at#20buy#20page#20a#20lot#20of#20products#2c.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/classes/Login#20at#20buy#20page#20a#20lot#20of#20products#2c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/classes/com.grupobancolombia.sufi.runners.Autenticacion.Autenticacion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/packages/com.grupobancolombia.sufi.runners.Autenticacion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/resources/test/features/Autenticacion/autenticacion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/resources/test/features/Autenticacion/autenticacion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/TEST-Login#20at#20buy#20page#20a#20lot#20of#20products#2c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/TEST-Login#20at#20buy#20page#20a#20lot#20of#20products#2c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/TEST-com.grupobancolombia.sufi.runners.Autenticacion.Autenticacion.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/questions/Autenticacion/Autenticacion_Exitosa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/questions/Autenticacion/Autenticacion_Exitosa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/tasks/Autenticacion/EnterValuesLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/tasks/Autenticacion/EnterValuesLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/userinterfaces/OpenYourLogoANewExperiencePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/userinterfaces/OpenYourLogoANewExperiencePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/userinterfaces/YourLogoANewExperiencePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/userinterfaces/YourLogoANewExperiencePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/utils/constants/StringConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/main/java/com/automationpractice/utils/constants/StringConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/test/java/com/automationpractice/runners/Autenticacion/Autenticacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/test/java/com/automationpractice/runners/Autenticacion/Autenticacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/src/test/resources/features/Autenticacion/autenticacion.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/src/test/resources/features/Autenticacion/autenticacion.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/01ab2ad3b34b0bcd05bd83e9639e46c9c13e4988a329f8fbb84029aa575edbde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/054d664434c10480605ace395d84922fb6941b6674fb4cc8cac081fdd80467ef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/06e25625d85987274bb44f18bd6af43b3919ece10976195597dbd3123a502d64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/0907815668f8a8eeb01c864608243654c096b44b8c278eab22e5fd7c1a72bc0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/09e1c9870f72ae75404e6628d231d197d5008d68cb6526e96030db69019bac6b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/0d0d7cbf40d076b74b181711e1652e10103402be6b7154541bc306ab0d1811e9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/0d423c8890f831bc2d96347d438358637e9aa117d298838b56e45a4f7024cd97.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/0dd2f2f4aa781f59483c10dbc778d6adc524e8a9be389fbd5d6e5bfae6b98f33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/0fab8752e050e82e5de9618bb5125e5d113af02ab2b3a4f74fb3981e9cd88180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/117aa2f24247811a59bceb7508be951bb496641b977d377122a14526f3ec6d03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/15b2f98118090d3d0729f2103ede9830165e6ef388dca04158663d5c6aa8c17c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/15d6b19eba3625de06d5dd6eba6a9261d8057b71df25c25530606a663bad9076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/1a7f8faa2c613709d3eb68ef4cc7294b1c2de83f0640899d6df31cf060d6313b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/1b430a54da32386dd10fb779ded591255f73b31046a4f6a55a95c3ac5d2eb2b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/1fd1cfbdae1598505151e7ff0d02d39a580ed68df478493550d96a6213008fc6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/20d8ea7c1ee1039ef3d7f9bc4e229a5b7feee04c7d5164c687726ce66e986d4d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/22423cc98771828b8cf024e78771c1f91ad0c30e6c058f46d4f20760517fc2e0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/2425fd819be7b9a8a7c16480c2169c4aae3304fbf2bd5e114578aa18dac83764.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/24b0e16a3c247a9a7b8c1170c6222b24d7e493495ffa0db91971479b25733899.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/2908cbc6bf968da2d1b1143f356b83a0c388ac91555813123adfca472615169b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/291b8fd36871171125e5cdfdf260606318b7795ba6723383a6e643f26ef26fcd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/29dacd0caa5d4e35cb790c23ae1d5c888ddddc225beb85e1f541702d7f894cd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/2a68f93443947a81aa746b43e260fa3205123bacd7b537dab2456616a2ee1651.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/2b25b5841bcf38acc94413d544a354fa1f3cc731c601184c9e521902ed5b1bab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/3183ce641bdcc0e38c82d6f563e01ba0cf656ed8d1255fefd8f02076a0f113b0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/37ddf26a70b10b59054f0eeaf14a8dd9801690a399e10ae83286c0a32b5028e9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/39afeab54a8a685cbf195a769071bef4b59281ab6a45b5082b49477d5ae7e3f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/3be648d0dd863c7a45b7920f2e1b2047fd809e33b8be5b0fdbc24801af6ab702.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/3e1e7b6d7dc1ac57bca5a6846587d315a7f241157dd117df1e8a1a7eda9d5c71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4004a4e777377d2bee0e37e61c973229219a43977ea77f5404fa3d3f6fc09f65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/435a7d7f175eb53effbffe41f0060438c8fc0b0e408e486cdcfcb63eda0a9119.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/44545ffd4890f38595cef374f342d36e7adf200ce8a1ba8d85b4cd217b8bff0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/450d95a2d6beec383f67d21375f44ae3c6e84f6475c4ea0bd79a52a56837bc53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4573cc8c067b38f2ce2332e08f6b52d9830cb414f02683867a82cd28ea8c6eef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/465dc770735204bf6efbb9f494a6c5795b327c30577fb7bb725cdbf56aaaa987.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4d585a79bafc10138c80a2a1f075bed6402295903dbf09c16b52b3f41e93d072.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4e57f73614b7f797c5a5113df9c20039254f9607f2ba2a5c7692f6f103dce23f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4ef54bacefc17947c66ba574aab8b82ea48cb5884f98e1b054b36e038805840e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/4ef926df43fa5bce8cef3ea53d7e05a8a01d2b7868583d109e3260157c85abd0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/546dc211c4c88a861f66ac063bc78e6b8eb4d06b292c8e3122101be34a807b00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5793d1638b4e1bb748c742f809ae868fd82df689c398972379268664cc43917d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/581716678f209d5ddfaaa48f558a88d7116b41bd26c16ea14b0fbf7985614c60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/582d63274a935b410c5f1bc3e64f0a0d97d681f43cb923393123b8d1f0151dbd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5acd05f4e2f59bec1b6f56fc2ff9f12b55def2c29ab4c8aaa544f0c21d93da95.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5ca0b3d4e799f305c0402297365d42e02d3437406ece7773ed2cca78211fa6a4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5cde402cb581d250fa8bffa0b8a667b4e082753b845aa9000d81600768e0270e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5dbc44a5d684bed3afc03c4d3e9a62ec6f3f938d7e6769af415ef6dfec05f808_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/5e541408b86fefa8496b127713b9226d2b01de85c0710273e494f2a6eda4ebd8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6090a335e2ac5795fb00cee8aa36baaa2d0041ce15e470f5a25a0d0890e6c9ec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/618ef6d4c79dae5d9b88e043dc47ae5b7abb3ed2d2465befe8a4b7f6533d3f00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/63aee252e9bf9f04e199f0e575cabd62e34c458c61046b746e1c2218785bc743.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6473e09d30148478bd9805286c71470c97645e560619e23d557ae838836d5530.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/654162622483451a0e15b29e93ec5a8e8a6bb8cc4c323d80e94a3bf064a6b37c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6561b2278ff857c75dfba3ae12aee888201279cb2a8a436c0b1da93db73e1a76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/65e0e2ab8b8640bee79bbbcde5f8702188b03fe03602a2309e94b9aca35e0dbb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/65f5b9e53467f8ac557008af634895dfbc1f2a95a4a18648a7747342d0fef08f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/676adb5bcde0eece527d703aaf93a371780a89e343923b679c4ad826a5da1478.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/67be5a450df0f7892851f0a35432cca2f6270cd35786d727da60d5bc6e029cb2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/67c764a41c504b3adc51d7c7e444f952227bdcfc8dd9c8774aa4b61d7317b499.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/68a3db162a3dd3685afa0ec991e3cbe59ae39fb16b08cb9e9cfce66c1d77c1b8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/69d018bf8be623bdb19c7838167c1af9e581e278d431796433db7fbf6e5ffa83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6bc663ea90d59c8f90ba5098941f70921534fd6099eca25c4b2357afc6e65f70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6bfd1660d2759c9ca628c99350e1123ce444429219dc5c0c8cafdefe70358a3c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6f3611be96d549f0f854c1ae217560660f9a9672f05bd40fa1778179c66b4eba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/6fcd180db2f8287e3a16c88951b88c12b77b90467f71a3cf3b9b61bc24b9f499.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/7026fcb4b84466d9bec3ce3df551c89a50de0af9e2f77441bf7ae16e47c632b1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/7265bd59098c85cb4957f31d1a0a7037f1532b2cb34f7356e4207cec395cefdc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/72bc9a98d23181c1bf03b1011a90920022ed10c9523dc9074aae6911f24604c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/74676d44c03c7cb713baffc5a42461d7929917e74d51808804d239934080b292.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/777cb0710af20a94816f6eabff2f62760863e39a141e0321d39b177b34858140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/791b409ac0f69b92cf5c3b7f3b790105570b9d4c0b5074db1a25310f0ba2a413.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/7f4722cb7fb610522a15d3aeb60f10205e62e0f32865867966f30993bfe3c3e7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/819404cae74425058c112a0cc14fca486de073b8aab2b6e482341c17a7185051.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/822681cf99dd27d9257104da8c3119dc7842685a7d14d5143d92738b4a185163.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/84c210a92e0f06eede0e9ef1c68877793663ac655ea0d7cbedafb7b7c15d5f2c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/84c64e70792e73711fd41cd9ba1300a70b892dc340dcab1fc66533c8527b4b78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/854ba870bc0c7192c8e3955de894aa768571a5174c80035736860cb97f040b50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/855d322d3ce6af0d069eb43fc1ca461bd37229a51416dae5be3c6b89868f1c75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/869e8cfc98bf696f3ef713ea23f5623e46b921b73acc6fa70da7054335a89184.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/880798faba05cae335da4140be8834e7d9d827d901e5518d123e0de1b8e96d8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/8d50e39752ae1783a9c9c9c24158af88fcaa59dd8378fa6d76a15a834a32e8c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/8dfe533af8820625300f7e458dc8e44c6705590052bf5c8c8854f025e876b61e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/8faa3e25276aa3d3e754d102bec23662d23af7f27e6391531c5c0199941103ba.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/902c105dc4a2910539c08dedee07b4269c77d11c5fcf4df7296129b433ef9beb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/92007ca6b9202b44f6f7354e0817741a419baca99263ff3aff673a72ce26365b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/92007ca6b9202b44f6f7354e0817741a419baca99263ff3aff673a72ce26365b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/92007ca6b9202b44f6f7354e0817741a419baca99263ff3aff673a72ce26365b_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/92a4fc9f7bc6b4231276f533fcc2da63fb3308c2971981c08c2153997f3f9bbe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/93493718cfdd2047cc4d055e971b67678ad5f1a136cad6f1bbe1dc34cff2e5cb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9b67cbc1cb8c41560ae8590cd8a9f6d01298dbd9391242f765303a52d5bf0267.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9c3070840abe28e198280c1cb06b5eb29a42942098799631c7fcda19185b21a0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/9eb290a0858211297efdfe83b63f5ee1a33bfb7e3581e51b32affc457829e5dd_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-4d11904facb052b286df0bd458c71d1e123d44fec17aabe051f772779fbd7482.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-92007ca6b9202b44f6f7354e0817741a419baca99263ff3aff673a72ce26365b.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-b2b5dbdf980ec389e8a692fcecdb0152dfcf50ed6ea58029f74ce3744842e5cd.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/SERENITY-JUNIT-e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a30c7b34f71c1e01d9c5082266932aa752367e3b739a7ff0237c156fa6e7d9d0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a30f11dbe4cb37ce16a43ec2a2e06ba83129cfacf9a4f5336ee9d13f9d7db328.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a71e4facea5ded76732934b270efd5b2cf6174965a0775620995bd85e9123039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a7524d62186865ba68e0eb28d144c8d181b892d2b17fd53e4ed30ba486fa83a3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a881c9adc0d17baec3d52c1dea41a3d60b86ec06b4eb0d2b891dd4b910f1a676.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/a8f39fd037d4b790cf3d480aefba32a052909d010ffc5dbce00addabb0b2dc65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/aa3039dc9ba5523bc23a56fbd92d0e16f188a20e08321523bc415f36b8bef916.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/aa6062cc5a94a491c60cc429cc18eac4245027e17c7f6aef946a79d5fa511fd2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/aaf987eccf52847fa9fb2a2c8a16d87db0c5c8563eaa80015b3b78a9aa129ffd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b003ca5623c9deb39c4712a902593e191a184fcc75417dba17c74bae1c0ddfb7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b2b5dbdf980ec389e8a692fcecdb0152dfcf50ed6ea58029f74ce3744842e5cd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b2b5dbdf980ec389e8a692fcecdb0152dfcf50ed6ea58029f74ce3744842e5cd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b2b5dbdf980ec389e8a692fcecdb0152dfcf50ed6ea58029f74ce3744842e5cd_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b683d788bf09a0dc27a118feb11ffb239c987e3053c11b6bbc78d27cf87c18bd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/b9471e62ec629638380d86268b7d00a119d8feb4f1b6f1d9f6b1ea4e4abafae1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bbc93afd2ce9ef300440c1836d75c7787f58866fada66c515dc418ff2cd2dcb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bbeae454510bb99d8a13d354c0b31b89b91bf321f554bef0b4c4ac2e9b73d81c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bd1761ab7a9df6ab5c7876e2d238eb1cebb7b11531cd5d3dddc1f72d4f330a8b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bd80a8b558bc30fdc813b16f70b397ce6eb0d368e7a06f9f332f42f4aa2e2cfe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/bootstrap/js/npm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c089ca3519c00190bcb4840f8f6a317023278b34ce2dddbd3971fd73b8924f55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c08b4bbb850a1a4e14f518f2ae835790a556344d07644487dbb4bb4d09269f3b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c0e22c4cc7a264fffc0ea063db3ff900e5fa6f234c8f2cc33e5798c592377a69.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c0e22c4cc7a264fffc0ea063db3ff900e5fa6f234c8f2cc33e5798c592377a69.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c0e22c4cc7a264fffc0ea063db3ff900e5fa6f234c8f2cc33e5798c592377a69.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c0e22c4cc7a264fffc0ea063db3ff900e5fa6f234c8f2cc33e5798c592377a69.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c0e22c4cc7a264fffc0ea063db3ff900e5fa6f234c8f2cc33e5798c592377a69_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c175ad850be4a821aa8db61de7e26ad5a9868de3e7d65e56f729dae9bb3f340a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c42e02f8caf2394fc7ede191df2cd4779d17aefdd4426ab815819dfeb7edce76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c7e7990b6c214aac4f58b600dbdad1836035f64a3f39f54c723604e3b16cd0a5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c8f9335778b5cfcd9ff498ef45619b23ba12ab0fc22aa7dfc070d9e13ddfcb99.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c9d431e9e1a344a927243399d33405732628ed3c9350d4c161d2c9def0a68181.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/c9f89fce34993fc16458dbd831e5aa2dc905987c2ddd98aed28fb8b73550f6a0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/ca861fbebf05b3efec874b1855e52d6ddf6f2749e80189ebb3c0abf29684682b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/cbe9e1d257623bf339a697ffee9b088ca26d8def4c5d98dd1f3fa4823f6f9bb1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/cd93d2075e30b0d51aee322f12e2fd3e7be50e19845b07e68a18ea5f4dab038a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/cdfd2073013b52dddc500b4ad0043f4ff71cb6f53b37088da39cffb9c00d5355.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/cfe7bbf67595c4c713b8386ea0fec1c8e8ae147454bb7cc91248e1800c9bf60b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/core.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/link.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/screen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/tables.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/css/tables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d1002d6569eb95da96b1598d4b74df8d33cc2f04317f7fdb327a7f4e03dff37c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d158854f2d0ee0ab3ba951a85f048bf1414bb642455c1b04b1354542e5db0630.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d158854f2d0ee0ab3ba951a85f048bf1414bb642455c1b04b1354542e5db0630.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d158854f2d0ee0ab3ba951a85f048bf1414bb642455c1b04b1354542e5db0630.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d158854f2d0ee0ab3ba951a85f048bf1414bb642455c1b04b1354542e5db0630.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d158854f2d0ee0ab3ba951a85f048bf1414bb642455c1b04b1354542e5db0630_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d2fdcf066caef9cdf681d632020ecf16862be9039852e73dc66cd0347223cf32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/d48b984b8b62f932da76f26b59c79a7cdf99c825efb6b05e2636b25ee543b03a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/da467e3363a77319b90d2a57678396210bf590da063c3e088f36b8bb019f76ae.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/da67601a80df02f5b31ee7d92a08d3df5093124d9f8e90acdcda7d86f2c85349.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/dataTables.jqueryui.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/jqueryui/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/datatables/1.10.4/media/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/de29e4b315a2da4d8cef6f444eefb312095019dd70483b9af7dcbd9567e38ada.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/df721529de2ed1c644a18ef09f222a55d6d178a61cca672ee725facdd6ecb976.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/dygraph/1.1.0/dygraph-combined.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e4c03e73c26bcc5d8a294f3794fb058f70fbe3711e6bef9856d1ca4a75751898.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e57be903a5396391dabc06028ec5ab8abc4b5622e9246e1573ae43dd40398936_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e71ed3ee73b46164877693ea48b01fc3c787e931dbe9c581b0d8258d9273c6e8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e89b07c69970d24a605a73691241057e16907ee0b2916a1b0edc228e7d4d99c8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/e9e6b27b144af6763dd2bead6c82a9b48c9e4a374c11c1d314c1f58019cc1fea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/ef88c1f0756e49c9585ae8a46f2faccfb308ead6e9c60c3ab770422dfe8226d8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/efbfd76791d1a18e5b657f210a2a926e3f853e421184d8481d888cb68f7c29d7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/excanvas/3/excanvas.compiled.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/excanvas/3/excanvas.compiled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/excanvas/3/excanvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/excanvas/3/excanvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/f2e415165730fde963aef8ae4e9e2da954c839b46b8d80a95aa02d22bb4daec5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/f533298a7a568eb7543aa6dfe52a4cd8af7cf14e3c969d91c1e3160dcdc368e9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/f801b9e91d2ecd45d71f4ee48744deb19bbe4afadf4b456c5fa1316f547681e8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/f980fe0168b282d94f97e5ee44314207edd0de743f6de679187d790bfe297743.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/fed42ad06f44d9016686c547b2f97734ca626785b0868b02a663dc93b781b683.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/HELP-US-OUT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/animated.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/animated.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/screen-reader.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_animated.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_screen-reader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/2.0.1/jit-yc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/2.0.1/jit-yc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/2.0.1/jit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/2.0.1/jit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/AreaChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/AreaChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/BarChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/BarChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/ForceDirected.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/ForceDirected.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/ForceDirected3D.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/ForceDirected3D.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Hypertree.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Hypertree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Icicle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Icicle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Other.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Other.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/PieChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/PieChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Spacetree.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Spacetree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Sunburst.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Sunburst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/TimeGraph.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/TimeGraph.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Treemap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/Treemap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jit/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/excanvas.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/excanvas.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/jquery.jqplot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.BezierCurveRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.barRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.blockRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.bubbleRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisLabelRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasAxisTickRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasOverlay.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.canvasTextRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.categoryAxisRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ciParser.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.cursor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dateAxisRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.donutRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.dragable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.enhancedLegendRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.funnelRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.highlighter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.json2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.logAxisRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoAxisRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mekkoRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.meterGaugeRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.mobile.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.ohlcRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pointLabels.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidAxisRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidGridRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.pyramidRenderer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqplot/1.0.8/plugins/jqplot.trendline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqtree/0.22/jqtree.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqtree/0.22/jqtree.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqtree/0.22/tree.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqtree/0.22/tree.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/external/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.structure.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/jqueryui/1.11.2-start/jquery-ui.theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/scripts/jquery-1.9.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/demo/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/jquery.nivo.slider.pack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/nivo-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/nivo-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/nivoslider.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/bar/bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/dark/dark.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/default/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/default/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/light/light.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/nivo-slider/3.2/themes/light/light.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource1175522968615479384.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource1196849301890734205.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource1225381374257574708.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource1335679965156080998.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource1386561809238014874.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource2402265159636005158.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource2820234162662618946.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3118506369267246187.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3249503038274594762.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3320895578240450876.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3384384729746129411.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3418692757032823930.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3635276742343495959.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource3755792053100104067.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4019906123957802368.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4111731234842472828.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4180436338151082626.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource43370279427482888.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4612398949073049219.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4631713830346607484.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4949392154232897509.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource4983975390263344371.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5198049453783700130.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5368340282435491956.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5584498480221208404.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5672604793164002601.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5709490976970745357.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource5851622945317516987.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource6210055544321872446.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource6556732903366653346.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource6583895653840257456.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource6606478064088139116.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource6988084611970848365.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7082305094385596555.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7102889982792393321.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource712326907152838324.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7143758191987390536.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7516865541961293453.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7587918510551156294.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7595538896767572973.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7596316379888011735.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource7614725680698572499.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8351110301543367143.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8575106348198465806.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8764705848219224022.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8858034210249656595.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8874795686921155172.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8918313148273685473.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource8985205227951827329.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/pagesource9012812498262542095.html.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/imgpreview.full.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/imgpreview.full.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/jquery-1.11.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/jquery-1.11.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Reto_Solvers/target/site/serenity/scripts/jquery.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Reto_Solvers" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Reto_Solvers" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Reto_Solvers" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Reto_Solvers" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1SVx7sjWJuucGj5jX0DIwRhfSl6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\reto\Reto_TATA\src\test\resources\features\posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\reto\Reto_TATA\src\main\java\com\automationpractice\models\Builders" />
+      <recent name="C:\reto\Reto_TATA\src\test\resources\features\post" />
+      <recent name="C:\reto\Simulacion_credito_vehiculo\src\test\resources\features" />
+      <recent name="C:\reto\Simulacion_credito_vehiculo\src\test\resources\features\Autenticacion" />
+      <recent name="C:\reto\Simulacion_credito_vehiculo\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.AddPage">
+    <configuration name="AddPage" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.runners.page.AddPage&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AddPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.runners.post.AddPost&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FormularioContacto" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.runners.formulariocontacto.FormularioContacto&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Registro" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.runners.registrodeusuarios.Registro&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistroUsuario" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.automationpractice.runners.registrodeusuarios.RegistroUsuario&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.AddPage" />
+        <item itemvalue="Gradle.AddPost" />
+        <item itemvalue="Gradle.RegistroUsuario" />
+        <item itemvalue="Gradle.FormularioContacto" />
+        <item itemvalue="Gradle.Registro" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc957307-5a1e-48c1-a471-1d04900fbe98" name="Default Changelist" comment="" />
+      <created>1571662399205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571662399205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1918" y="160" key="#Plugins" timestamp="1619051411484">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1918" y="160" key="#Plugins/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619051411484" />
+    <state x="2099" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619054374733">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2099" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619054374733" />
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1612245094517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1612245094517" />
+    <state x="1931" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1618928307582">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1931" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618928307582" />
+    <state x="260" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612238232738">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="260" y="15" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1612238232738" />
+    <state x="1946" y="157" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619061509737">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1946" y="157" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619061509737" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612247432482" />
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1619062471704">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="33" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1618923038210" />
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619062471704" />
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1612250703677" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1619062471704">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="33" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1618923038210" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619062471704" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1612250703677" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1619062471704">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="33" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1618923038209" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619062471704" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1612250703677" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1619062471704">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1323" height="33" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1618923038210" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619062471704" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1612250703677" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1618907246275">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618907246275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1618907246275">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618907246275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1618907246275">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618907246275" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1618907246275">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618907246275" />
+    <state x="2032" y="253" width="587" height="534" key="find.popup" timestamp="1619057188206">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2032" y="253" width="587" height="534" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1619057188206" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1612202106750">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1612202106750" />
+    <state x="1989" y="225" key="search.everywhere.popup" timestamp="1618905117196">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1989" y="225" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1618905117196" />
+  </component>
+</project>

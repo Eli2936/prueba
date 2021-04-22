@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.serenity-bdd/serenity-screenplay-webdriver/1.9.20/4af139563eb5235e50f90c9afe27c255fdf238a3/serenity-screenplay-webdriver-1.9.20-sources.jar!/net/serenitybdd/screenplay/actions/Open.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/serenity.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/exceptions/Busqueda/notFoundAnswer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/models/Builders/DataUserBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/models/DataUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/Autenticacion/Autenticacion_Exitosa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/Autenticacion/Autenticacion_Fallida_Valores_Erroneos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/Busqueda/Busqueda_Exitosa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/Busqueda/Busqueda_Fallida_Valores_Erroneos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/Busqueda/Busqueda_Fallida_Valores_Vacios.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/formulariocontacto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/formulariocontacto/formulariocontacto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/formulariocontacto/formulariocontactoExitoso.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/logindeusuarios/Autenticacion_Exitosa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/logindeusuarios/CreateExitoso.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/questions/logindeusuarios/LoginExitoso.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/Autenticacion/EnterValuesLogin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/Autenticacion/OpenAdvantageOnLineShopping.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/Busqueda/EnterValuesFromUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/OpenAdvantageOnLineShopping.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/OpenYourLogoANewExperiencePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/formulariocontacto/EnterValuesFormularioContact.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/logindeusuarios/EnterValuesLogin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/logindeusuarios/OpenOpenSourceCms.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/page/EnterValueCreateNewPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/post/EnterValueCreateNew.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/post/EnterValueCreateNewPost.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/post/EnterValuesLogin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/tasks/registrodeusuarios/EnterValuesRegister.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/OpenAdvantageOnLineShoppingPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/OpenOpenSourceCms.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/OpenYourLogoANewExperiencePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/YourAdvantageOnLineShoppingPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/YourLogoANewExperiencePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/userinterfaces/YourOpenSourceCms.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/utils/Builder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/utils/constants/IntegerConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/automationpractice/utils/constants/StringConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/exceptions/Busqueda/notFoundAnswer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/models/Builders/DataUserBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/models/DataUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion_Exitosa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion_Fallida_Valores_Erroneos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion/Autenticacion_Fallida_Valores_Vacios.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Autenticacion/autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Exitosa.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Fallida_Valores_Erroneos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/questions/Busqueda/Busqueda_Fallida_Valores_Vacios.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/tasks/Autenticacion/EnterValuesLogin.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/tasks/EnterValuesFromUser.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/tasks/ObtainValueSimulatorPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/tasks/OpenYourLogoANewExperiencePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/userinterfaces/OpenSimulationCardCreditPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/userinterfaces/YourLogoANewExperiencePage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/grupobancolombia/sufi/utils/constants/StringConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/Autenticacion/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/Busqueda/Busqueda.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/Re.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/Registro/Re.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/Registro/Registro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/formulariocontacto/FormularioContacto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/logindeusuarios/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/logindeusuarios/LoginUsuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/logindeusuarios/login_usuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/page/AddPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/post/AddPost.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/post/add.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/registro/Registro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/registrodeusuarios/Registro.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/runners/registrodeusuarios/RegistroUsuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/Autenticacion/Autenticacion_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/Busqueda/Busqueda_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/formulariocontacto/FormularioContactoStepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/logindeusuarios/Autenticacion_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/logindeusuarios/LoginUsuariosStepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/page/AddPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/post/AddPost.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/automationpractice/stepdefinitions/registrodeusuarios/RegistroUsuariosStepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/runners/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/runners/Autenticacion/Aautenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/runners/Autenticacion/Autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/runners/Autenticacion/autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/runners/Busqueda/Busqueda.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/stepdefinitions/Autenticacion/Autenticacion_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/stepdefinitions/Autenticacion/autenticacion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/stepdefinitions/Autenticacion/autenticacion_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/stepdefinitions/Busqueda/Busqueda_StepDefinitions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/com/grupobancolombia/sufi/stepdefinitions/simulation_credit_car_StepDefinition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/Autenticacion/autenticacion.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/Busqueda/busqueda.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/formulariocontacto/formulario_contacto.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/logindeusuarios/login_usuarios.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/page/add_page.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/post/add.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/post/add_post.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/resources/features/registrodeusuarios/registro_usuarios.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
